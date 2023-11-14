@@ -1,0 +1,89 @@
+/*=================================================================*/
+/*                     BUTTONS
+/*=================================================================*/
+.btn {
+    border-radius: 0;
+    font-family: $fonthead;
+    font-size: 12px;
+    font-weight: 700;
+    overflow: hidden;
+    letter-spacing: 1px;
+    padding: 14px 30px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn-default {
+    color: #FFF;
+    border: solid 3px $colordefault;
+    background: $colordefault;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    &:hover {
+        color: #111;
+        background: transparent;
+    }
+}
+
+.btn-light {
+    color: #111;
+    background: #FFF;
+    border: solid 3px #FFF;
+    &:hover {
+        color: #FFF;
+        border: solid 3px #FFF !important;
+        background: transparent;
+    }
+}
+
+.btn-outline {
+    border: solid 3px #111;
+    &:hover {
+        color: #FFF;
+        background: #111;
+    }
+}
+
+.btn-outline-light {
+    color: #FFF;
+    border: solid 3px #FFF;
+    &:hover {
+        color: #111;
+        background: #FFF;
+    }
+}
+
+
+.btn-full {
+    text-align: center;
+    width: 100%;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 28px 30px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 0;
+}
+
+.btn-sm {
+    padding: 17px 16px;
+    font-size: 12px;
+    line-height: 0;
+}
+
+.btn-xs {
+    padding: 12px 10px;
+    font-size: 12px;
+    line-height: 0;
+}
+
+.btn.disabled, .btn:disabled {
+    opacity: 1;
+    cursor: no-drop;
+}
